@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>¿Que tanto sabes de futbol?</h1>
+      <img src="./img/logo.svg" alt="soccer" />
+    </header>
+
+    <div class="modal-result hide-modal" id="reprobado"></div>
+
+    <div class="modal-result hide-modal" id="pasaste"></div>
+
+    <div class="modal-result hide-modal" id="crack"></div>
+
+    <section id="form">
+      <fieldset id="1" class="contenedor">
+        <h3>1.- ¿Cuando tuvo lugar la primera Copa Mundial de Fútbol?</h3>
+        <div class="option-cover top-margin">
+          <input
+            type="radio"
+            name="1"
+            id="answer1"
+            value="1920"
+            class="option"
+            checked
+          />
+          <label for="answer1">1920</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="1"
+            id="answer2"
+            value="1930"
+            class="option"
+          />
+          <label for="answer2">1930</label
+          ><!--Correct-->
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="1"
+            id="answer3"
+            value="1940"
+            class="option"
+          />
+          <label for="answer3">1940</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="1"
+            id="answer4"
+            value="1950"
+            class="option"
+          />
+          <label for="answer4">1950</label>
+        </div>
+        <div class="explain hide-explain">
+          <p>
+            La primera edición de la Copa Mundial de Fútbol organizada por la
+            FIFA tuvo lugar en 1930, concretamente en Uruguay entre el 13 y el
+            30 de julio de este año, con motivo del centenario de la Jura de la
+            Constitución de Uruguay. Participaron 13 selecciones.
+          </p>
+        </div>
+        <button id="btnRespuesta1" class="btn-sol hide-btn-ver">
+          Solución
+        </button>
+        <b id="respuesta1" class="hide-res">1930</b>
+      </fieldset>
+
+      <fieldset id="2" class="contenedor">
+        <h3>
+          2.- ¿Quien es el maximo goleador de la historia de la Copa Mundial de
+          Futbol?
+        </h3>
+        <div class="option-cover top-margin">
+          <input
+            type="radio"
+            name="2"
+            id="answer5"
+            value="miroslavklose"
+            class="option"
+          />
+          <label for="answer5">Miroslav Klose</label
+          ><!--Correct-->
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="2"
+            id="answer6"
+            value="ronaldonazario"
+            class="option"
+          />
+          <label for="answer6">Ronaldo Nazario</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="2"
+            id="answer7"
+            value="gerdmuller"
+            class="option"
+            checked
+          />
+          <label for="answer7">Gerd Müller</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="2"
+            id="answer8"
+            value="pele"
+            class="option"
+          />
+          <label for="answer8">Pele</label>
+        </div>
+
+        <div class="explain hide-explain">
+          <p>
+            El máximo goleador de la historia de la Copa Mundial de Fútbol es
+            Miroslav Klose. En 2014 marcó su gol número 16, lo que le convirtió
+            en el primero de la lista, desbancando a Ronaldo con 15.
+          </p>
+        </div>
+
+        <button id="btnRespuesta2" class="btn-sol hide-btn-ver">
+          Solución
+        </button>
+        <b id="respuesta2" class="hide-res">Miroslav Klose</b>
+      </fieldset>
+
+      <fieldset id="3" class="contenedor">
+        <h3>
+          3.- ¿Que animal fue el escogido para ilustrar la mascota del Mundial
+          de Rusia?
+        </h3>
+        <div class="option-cover top-margin">
+          <input
+            type="radio"
+            name="3"
+            id="answer9"
+            value="perro"
+            class="option"
+          />
+          <label for="answer9">Un perro</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="3"
+            id="answer10"
+            value="gato"
+            class="option"
+            checked
+          />
+          <label for="answer10">Un gato</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="3"
+            id="answer11"
+            value="lobo"
+            class="option"
+          />
+          <label for="answer11">Un lobo</label
+          ><!--Correct-->
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="3"
+            id="answer12"
+            value="loro"
+            class="option"
+          />
+          <label for="answer12">Un loro</label>
+        </div>
+
+        <div class="explain hide-explain">
+          <p>
+            Se llama Zabivaka y fue la mascota del Mundial creada por Ekaterina
+            Bocharova. Se trata de un simpático lobito antropomórfico que lleva
+            gafas.
+          </p>
+        </div>
+
+        <button id="btnRespuesta3" class="btn-sol hide-btn-ver">
+          Solución
+        </button>
+        <b id="respuesta3" class="hide-res">Un lobo</b>
+      </fieldset>
+
+      <fieldset id="4" class="contenedor">
+        <h3>
+          4.- Hablando de mascotas, ¿Cuál de estas mascotas no pertenece a la
+          historia del Mundial?
+        </h3>
+        <div class="option-cover top-margin">
+          <input
+            type="radio"
+            name="4"
+            id="answer13"
+            value="fuleco"
+            class="option"
+          />
+          <label for="answer13">Fuleco</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="4"
+            id="answer14"
+            value="footix"
+            class="option"
+          />
+          <label for="answer14">Footix</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="4"
+            id="answer15"
+            value="naranjito"
+            class="option"
+            checked
+          />
+          <label for="answer15">Naranjito</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="4"
+            id="answer16"
+            value="toptip"
+            class="option"
+          />
+          <label for="answer16">TopTip</label
+          ><!--Correct-->
+        </div>
+
+        <div class="explain hide-explain">
+          <p>
+            Las 3 primeras mascotas sí son correctas. La que no pertenece a este
+            grupo es TopTip (hubo una Tip Tap en Alemania, eso sí). Naranjito
+            fue la mascota de España en 1982, Footix de Francia en 1988 y Fuleco
+            de Brasil en 2014.
+          </p>
+        </div>
+
+        <button id="btnRespuesta4" class="btn-sol hide-btn-ver">
+          Solución
+        </button>
+        <b id="respuesta4" class="hide-res">Top Tip</b>
+      </fieldset>
+
+      <fieldset id="5" class="contenedor">
+        <h3>5.- ¿A qué futbolista se conoce con el apodo de Harry Potter?</h3>
+        <div class="option-cover top-margin">
+          <input
+            type="radio"
+            name="5"
+            id="answer17"
+            value="luisarturohernandezcarreon"
+            class="option"
+          />
+          <label for="answer17">Luis Arturo Hernandez Carreon</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="5"
+            id="answer18"
+            value="diegomaradona"
+            class="option"
+          />
+          <label for="answer18">Diego Maradona</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="5"
+            id="answer19"
+            value="justfontaine"
+            class="option"
+            checked
+          />
+          <label for="answer19">Just Fontaine</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="5"
+            id="answer20"
+            value="ricardoquaresma"
+            class="option"
+          />
+          <label for="answer20">Ricardo Quaresma</label
+          ><!--Correct-->
+        </div>
+
+        <div class="explain hide-explain">
+          <p>
+            Su pericia jugando y marcando goles llevaron al público a nombrar a
+            Ricardo Quaresma como a uno de los magos más famosos de la ficción
+            mundial, Harry Potter.
+          </p>
+        </div>
+
+        <button id="btnRespuesta5" class="btn-sol hide-btn-ver">
+          Solución
+        </button>
+        <b id="respuesta5" class="hide-res">Ricardo Quaresma</b>
+      </fieldset>
+
+      <fieldset id="6" class="contenedor">
+        <h3>6.- ¿Dónde tendrá lugar la Copa Mundial de Fútbol de 2022?</h3>
+        <div class="option-cover top-margin">
+          <input
+            type="radio"
+            name="6"
+            id="answer21"
+            value="australia"
+            class="option"
+          />
+          <label for="answer21">En Australia</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="6"
+            id="answer22"
+            value="quatar"
+            class="option"
+          />
+          <label for="answer22">En Quatar</label
+          ><!--Correct-->
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="6"
+            id="answer23"
+            value="islandia"
+            class="option"
+          />
+          <label for="answer23">En Islandia</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="6"
+            id="answer24"
+            value="suiza"
+            class="option"
+            checked
+          />
+          <label for="answer24">En Suiza</label>
+        </div>
+
+        <div class="explain hide-explain">
+          <p>
+            La Copa Mundial de la FIFA de 2022 tendrá lugar en Qatar (la pequeña
+            península en el este de la península arábiga) y será la XXII edición
+            de la Copa Mundial de Fútbol.
+          </p>
+        </div>
+
+        <button id="btnRespuesta6" class="btn-sol hide-btn-ver">
+          Solución
+        </button>
+        <b id="respuesta6" class="hide-res">En Quatar</b>
+      </fieldset>
+
+      <fieldset id="7" class="contenedor">
+        <h3>
+          7.- Cada 4 años, una empresa diferente fabrica el cuero con el que se
+          juega el mundial.
+        </h3>
+        <div class="option-cover top-margin">
+          <input
+            type="radio"
+            name="7"
+            id="answer25"
+            value="verdadero"
+            class="option"
+            checked
+          />
+          <label for="answer25">Verdadero</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="7"
+            id="answer26"
+            value="falso"
+            class="option"
+          />
+          <label for="answer26">Falso</label
+          ><!--Correct-->
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="7"
+            id="answer27"
+            value="nose"
+            class="option"
+          />
+          <label for="answer27">Nose</label>
+        </div>
+        <div class="option-cover">
+          <input
+            type="radio"
+            name="7"
+            id="answer28"
+            value="quiza"
+            class="option"
+          />
+          <label for="answer28">Quiza</label>
+        </div>
+
+        <div class="explain hide-explain">
+          <p>
+            Falso. Desde el encuentro de México en 1970, Adidas es la que
+            fabrica el cuero. El mundial de México fue el primer torneo
+            retransmitido por televisión y también el primero en contar con
+            balón manufacturado por una marca comercial. Adidas seguirá
+            fabricando el balón al menos hasta 2030.
+          </p>
+        </div>
+
+        <button id="btnRespuesta7" class="btn-sol hide-btn-ver">
+          Solución
+        </button>
+        <b id="respuesta7" class="hide-res">Falso</b>
+      </fieldset>
+
+      <div class="botones">
+        <input type="button" value="Enviar" id="btnEnviar" />
+      </div>
+
+      <a id="reiniciarBtn" href="index.html" class="hide-modal">Reiniciar</a>
+    </section>
+
+    <!--<input
+      type="radio"
+      name="option1"
+      id="option1"
+      value="value1"
+      class="option"
+    /><label for="option1">Option1</label>
+
+    <input
+      type="radio"
+      name="option1"
+      id="option2"
+      value="value2"
+      class="option"
+    /><label for="option2">Option2</label>
+
+    <button id="btnVerify">Verify</button>-->
+
+    <script
+      src="https://kit.fontawesome.com/eee10799b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
